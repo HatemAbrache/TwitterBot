@@ -8,10 +8,10 @@ import logging
 import time
 dotenv.load_dotenv()
 
-api_key = os.getenv('ck1KqRgHu1AjBXd9d9Uo8i3Yd')
-api_secret = os.getenv('j0kuQl9iFz9vp56bAyxUXnQI75ASEVbGhF1ffQRBMK8W1MoiPg')
-access_token = os.getenv('1702243484286017536-qOe9m8uJrue5LRSj4uJO7HEkYyParO')
-access_secret = os.getenv('aidHkWGohainekedRzRaFnTaZSzpd0rkSrmIhHZRPEX4s')
+api_key = os.getenv(' #Api_key ')
+api_secret = os.getenv(' #Api_Secret')
+access_token = os.getenv(' #Access_token ')
+access_secret = os.getenv(' #Acess_secret ')
 
 auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_secret)
